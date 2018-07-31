@@ -1,6 +1,3 @@
-<?php
-$number1 = 1;
- ?>
  <!DOCTYPE html>
  <html lang="fr">
    <head>
@@ -10,10 +7,9 @@ $number1 = 1;
    <body>
 <p>
 <?php
-//On avavnce de 1 à 100 avec un pas de 15
-while($number1 <= 100){
-  echo $number1 . ' On tient le bon bout'.'<br/>';
-  $number1 += 15;
+//On avance de 1 à 100 avec un pas de 15
+for($number1 = 1; $number1 <= 100; $number1 += 15){
+  echo ' On tient le bon bout'.'<br/>';
 }
  ?>
 </p>
